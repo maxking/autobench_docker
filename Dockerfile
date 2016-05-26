@@ -12,6 +12,5 @@ RUN wget https://github.com/menavaur/Autobench/archive/master.zip; \
 RUN cd Autobench-master; \
 	make; \
 	make install;
-	 
-WORKDIR /	 
-	 
+
+WORKDIR /
